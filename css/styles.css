@@ -18,6 +18,23 @@ body {
   font-weight: 400;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+}
+
 /* header */
 /* logo */
 .logo {
@@ -38,7 +55,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  list-style: none;
 }
 .link {
   color: var(--title-color);
@@ -53,7 +69,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  list-style: none;
 }
 .header-contact-link {
   color: var(--text-color);
@@ -102,9 +117,7 @@ body {
   color: var(--title-color);
 }
 /* section features*/
-.features-list {
-  list-style: none;
-}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -120,14 +133,8 @@ body {
 }
 
 /* section work */
-.work-list {
-  list-style: none;
-}
 
 /* section team */
-.team-list {
-  list-style: none;
-}
 .team-section {
   background: #f5f4fa;
 }
@@ -160,7 +167,6 @@ body {
 
 .address-list {
   font-style: normal;
-  list-style: none;
 }
 .address-link {
   color: var(--second-accent-color);
@@ -192,9 +198,6 @@ body {
 }
 
 /* main */
-.button-list {
-  list-style: none;
-}
 .filter-button {
   background: #f5f4fa;
   color: var(--title-color);
@@ -213,9 +216,6 @@ body {
   color: var(--second-accent-color);
 }
 
-.project-list {
-  list-style: none;
-}
 .project-box {
   background: var(--primary-bg-color);
 }
