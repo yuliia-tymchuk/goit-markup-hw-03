@@ -33,6 +33,8 @@ ul {
 
 .container {
   width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* header */
