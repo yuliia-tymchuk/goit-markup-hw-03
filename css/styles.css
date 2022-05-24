@@ -29,6 +29,7 @@ button {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 
 body {
@@ -105,7 +106,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  max-width: 700px;
+  width: 696px;
   margin-bottom: 30px;
 }
 .hero-button {
@@ -120,6 +121,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  display: block;
+  margin: 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus {
