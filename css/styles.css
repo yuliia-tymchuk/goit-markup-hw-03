@@ -106,8 +106,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  width: 696px;
-  margin-bottom: 30px;
+  max-width: 696px;
+  margin: 0 auto 30px;
 }
 .hero-button {
   background: var(--accent-color);
