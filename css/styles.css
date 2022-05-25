@@ -52,6 +52,7 @@ body {
 .studio-header {
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 .studio-header .container {
   display: flex;
@@ -66,10 +67,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-right: 93px;
 }
 .header-logo {
   color: var(--header-logo);
+  margin-right: 93px;
 }
 .site-nav {
   font-weight: 500;
@@ -128,6 +129,9 @@ body {
 .hero-button {
   background: var(--accent-color);
   color: var(--second-accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0px;
+  border-radius: 4px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -139,11 +143,14 @@ body {
   letter-spacing: 0.06em;
   display: block;
   margin: 0 auto;
+  padding: 10px 32px;
 }
 .hero-button:hover,
 .hero-button:focus {
   background: #188ce8;
   color: var(--second-accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .section-title {
@@ -216,7 +223,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
 .team-desc {
@@ -288,6 +295,18 @@ body {
 }
 
 /* main */
+.main-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.button-list {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.btn-item:not(:last-child) {
+  margin-right: 8px;
+}
 .filter-button {
   background: #f5f4fa;
   color: var(--title-color);
@@ -298,21 +317,36 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  border: 0px;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 .filter-button:hover,
 .filter-button:focus {
   background: var(--accent-color);
   color: var(--second-accent-color);
-}
-.button-list {
-  margin-bottom: 50px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
 .project-box {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
   background: var(--primary-bg-color);
+  flex-basis: calc(100% / 3 - 30px);
+  margin: 15px;
 }
 .project-link {
   text-decoration: none;
+}
+.project-desc {
+  padding: 20px 24px;
 }
 .project-title {
   color: var(--title-color);
@@ -320,6 +354,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .project-text {
   color: var(--text-color);
