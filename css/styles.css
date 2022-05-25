@@ -53,6 +53,10 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.studio-header .container {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -72,6 +76,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 .link {
   color: var(--title-color);
@@ -81,11 +90,18 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
+.contact-list {
+  display: flex;
+  margin-left: auto;
+}
 .contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.contacts + .contacts {
+  margin-left: 50px;
 }
 .header-contact-link {
   color: var(--text-color);
