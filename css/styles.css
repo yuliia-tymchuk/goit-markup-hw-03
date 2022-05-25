@@ -341,8 +341,7 @@ body {
 }
 .project-box {
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  background: var(--primary-bg-color);
+
   width: 370px;
   flex-basis: calc(100% / 3 - 30px);
   margin: 15px;
@@ -351,6 +350,9 @@ body {
   text-decoration: none;
 }
 .project-desc {
+  border: 1px solid #eeeeee;
+  border-top-width: 0px;
+  background: var(--primary-bg-color);
   padding: 20px 24px;
 }
 .project-title {
