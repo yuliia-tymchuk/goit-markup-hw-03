@@ -52,7 +52,7 @@ body {
 .studio-header {
   padding-top: 25px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .studio-header .container {
   display: flex;
@@ -271,9 +271,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 9px;
 }
-.mail {
+.address-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .contact-link {
@@ -341,7 +340,6 @@ body {
 }
 .project-box {
   background: #ffffff;
-
   width: 370px;
   flex-basis: calc(100% / 3 - 30px);
   margin: 15px;
